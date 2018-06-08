@@ -1,16 +1,16 @@
 pub struct User {
-    id: i32,
-    handle: String,
-    access: i32,
-    assigned: Option<i32>,
+    pub id: i32,
+    pub handle: String,
+    pub access: i32,
+    pub assigned: Option<i32>,
 }
 
 pub struct Challenge {
-    id: i32,
-    points: i32,
-    submissions: i32,
-    url: String,
-    flag: String,
+    pub id: i32,
+    pub points: i32,
+    pub submissions: i32,
+    pub url: String,
+    pub flag: String,
 }
 
 pub enum Trail {
@@ -18,6 +18,6 @@ pub enum Trail {
 
 
 pub struct Event {
-    name: String,
-    url: String,
+    pub name: String,
+    pub url: String,
 }

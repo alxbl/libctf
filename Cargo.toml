@@ -2,5 +2,7 @@
 name = "ctf"
 version = "0.1.0"
 authors = ["Alexandre Beaulieu <alex@segfault.me>"]
+description = "Toolkit to help CTF teams synchronize during events."
+license = "MIT"
 
 [dependencies]

@@ -6,3 +6,6 @@ description = "Toolkit to help CTF teams synchronize during events."
 license = "MIT"
 
 [dependencies]
+rusqlite = "0.13.0"
+tempfile = "3"
+chrono = "0.4"

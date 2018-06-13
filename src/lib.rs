@@ -1,15 +1,6 @@
-mod model;
+pub mod model;
+pub mod workspace;
 
-fn open() {
-    let u = model::User { id: 42, handle: String::from("alxbl"), access: 999, assigned: None};
-    println!("hello world.");
-}
+mod repository;
+mod sqlite;
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        open();
-        assert_eq!(2 + 2, 4);
-    }
-}
